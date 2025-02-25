@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mobile Phone Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <input type="text" placeholder="Search...">
+            <button class="cart-button">Cart (0)</button>
+        </div>
+    </header>
+    <main>
+        <section class="product-list">
+            <article class="product-item">
+                <h2>Phone Model 1</h2>
+                <img src="phone1.jpg" alt="Phone Model 1">
+                <p>Price: $499</p>
+                <button onclick="addToCart('Phone Model 1', 499)">Add to Cart</button>
+            </article>
+            <article class="product-item">
+                <h2>Phone Model 2</h2>
+                <img src="phone2.jpg" alt="Phone Model 2">
+                <p>Price: $599</p>
+                <button onclick="addToCart('Phone Model 2', 599)">Add to Cart</button>
+            </article>
+            <article class="product-item">
+                <h2>Phone Model 3</h2>
+                <img src="phone3.jpg" alt="Phone Model 3">
+                <p>Price: $699</p>
+                <button onclick="addToCart('Phone Model 3', 699)">Add to Cart</button>
+            </article>
+            <article class="product-item">
+                <h2>Phone Model 4</h2>
+                <img src="phone4.jpg" alt="Phone Model 4">
+                <p>Price: $799</p>
+                <button onclick="addToCart('Phone Model 4', 799)">Add to Cart</button>
+            </article>
+            <article class="product-item">
+                <h2>Phone Model 5</h2>
+                <img src="phone5.jpg" alt="Phone Model 5">
+                <p>Price: $899</p>
+                <button onclick="addToCart('Phone Model 5', 899)">Add to Cart</button>
+            </article>
+            <article class="product-item">
+                <h2>Phone Model 6</h2>
+                <img src="phone6.jpg" alt="Phone Model 6">
+                <p>Price: $999</p>
+                <button onclick="addToCart('Phone Model 6', 999)">Add to Cart</button>
+            </article>
+            <article class="product-item">
+                <h2>Phone Model 7</h2>
+                <img src="phone7.jpg" alt="Phone Model 7">
+                <p>Price: $1099</p>
+                <button onclick="addToCart('Phone Model 7', 1099)">Add to Cart</button>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mobile Phone Store</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

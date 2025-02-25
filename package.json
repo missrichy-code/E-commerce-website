@@ -1,0 +1,20 @@
+{
+  "name": "e-commerce-website",
+  "version": "1.0.0",
+  "description": "A simple E-commerce website for mobile phones.",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite preview",
+    "build": "vite build",
+    "build:azure": "vite build"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
+
